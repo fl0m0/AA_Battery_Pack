@@ -4421,16 +4421,6 @@
 		)
 		(uuid "065cb452-789c-4759-86f0-df16bfb104b2")
 	)
-	(text "Battery Charger: BQ24040DSQR"
-		(exclude_from_sim no)
-		(at 169.926 28.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "09aeaaa9-ba71-406b-acec-81ec36ab87a1")
-	)
 	(text "Ireg = 1 kV / R2 = 0.5 A"
 		(exclude_from_sim no)
 		(at 138.43 88.646 0)
@@ -4443,7 +4433,7 @@
 	)
 	(text "L = 74438356047 oder 74438357068\nU1 = TPS562242DRLR"
 		(exclude_from_sim no)
-		(at 169.926 37.592 0)
+		(at 172.212 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5615,15 +5605,15 @@
 	(symbol
 		(lib_id "Power_Protection_User:824021")
 		(at 96.52 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52cf9104-9faa-4d21-a2ae-d90722dfa275")
 		(property "Reference" "D1"
-			(at 102.87 64.7699 0)
+			(at 104.648 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5622,7 @@
 			)
 		)
 		(property "Value" "824021"
-			(at 102.87 67.3099 0)
+			(at 109.474 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5631,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD_User:SOT-23_Handsoldering"
-			(at 102.235 67.31 0)
+			(at 90.805 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824021.pdf"
-			(at 99.695 62.865 0)
+			(at 93.345 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5659,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 102.235 69.85 0)
+			(at 90.805 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5669,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 102.235 72.39 0)
+			(at 90.805 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5679,7 @@
 			)
 		)
 		(property "SPN" "732-4468-1-ND"
-			(at 111.76 72.39 0)
+			(at 81.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
