@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "687769ec-ff6f-493b-a41b-6fe0a15d2d59")
 	(paper "A4")
+	(title_block
+		(title "AA Battery Pack Replacement")
+		(date "2024-12-01")
+		(rev "A")
+		(company "fl0m0")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
 			(exclude_from_sim no)
@@ -1576,7 +1582,7 @@
 				)
 			)
 		)
-		(symbol "Inductor_User:74438356056"
+		(symbol "Inductor_User:SRN4018-4R7M"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1592,7 +1598,7 @@
 					)
 				)
 			)
-			(property "Value" "74438356056"
+			(property "Value" "SRN4018-4R7M"
 				(at 2.54 0 90)
 				(effects
 					(font
@@ -1600,7 +1606,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Inductor_SMD_User:L_Wurth_WE-MAPI-4020"
+			(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 				(at -1.778 1.27 90)
 				(effects
 					(font
@@ -1609,7 +1615,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438357068.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf?sfvrsn=528a0331_24"
 				(at 10.16 -12.7 0)
 				(effects
 					(font
@@ -1618,7 +1624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WE-MAPI SMT Shielded Power Inductor, 5.6µH, 3.85A, 81mΩ"
+			(property "Description" "Semi Shielded Power Inductor, 4.7µH, 2A, 84mΩ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1627,7 +1633,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wurth Electronics"
+			(property "Manufacturer" "Bourns"
 				(at 1.27 -20.32 0)
 				(effects
 					(font
@@ -1636,7 +1642,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "74438357068"
+			(property "MPN" "SRN4018-4R7M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1645,7 +1651,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pretty Value 1" "5.6µH, 3.75A"
+			(property "Pretty Value 1" "4.7µH, 2A"
 				(at 4.572 0.254 90)
 				(effects
 					(font
@@ -1653,7 +1659,7 @@
 					)
 				)
 			)
-			(property "Supplier" "Digi-Key"
+			(property "Supplier" "Reichelt"
 				(at -12.7 -16.51 0)
 				(effects
 					(font
@@ -1662,7 +1668,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "732-8235-1-ND"
+			(property "SPN" "BOU SRN4018-4R7M"
 				(at 1.27 -16.51 0)
 				(effects
 					(font
@@ -1689,7 +1695,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74438356056_0_1"
+			(symbol "SRN4018-4R7M_0_1"
 				(arc
 					(start 0 -2.54)
 					(mid 0.6323 -1.905)
@@ -1750,7 +1756,7 @@
 					)
 				)
 			)
-			(symbol "74438356056_1_1"
+			(symbol "SRN4018-4R7M_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4340,6 +4346,12 @@
 		(uuid "cbcac89a-f632-4cf4-8bfa-432a0fdd395b")
 	)
 	(junction
+		(at 99.06 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8414787-04c5-47a8-82a9-8e5df9715e90")
+	)
+	(junction
 		(at 156.21 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4369,10 +4381,6 @@
 		(color 0 0 0 0)
 		(uuid "f7d2465e-1dea-4769-962d-5318b548637f")
 	)
-	(no_connect
-		(at 99.06 60.96)
-		(uuid "10864596-f05d-47a1-9e03-7e7728a57b7d")
-	)
 	(wire
 		(pts
 			(xy 181.61 127) (xy 181.61 133.35)
@@ -4385,7 +4393,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 113.03 58.42)
+			(xy 93.98 58.42) (xy 99.06 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4512,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "2e78392d-fe8f-4bda-a868-c343abbe8cd1")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b4e4ec-4787-487a-9ff9-4f26b588bd5f")
 	)
 	(wire
 		(pts
@@ -4772,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "82125e12-d3f6-40d1-ae5d-cb1b3817a8c9")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82228023-ca72-49cc-af72-6a53c879077b")
 	)
 	(wire
 		(pts
@@ -6635,7 +6663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Inductor_User:74438356056")
+		(lib_id "Inductor_User:SRN4018-4R7M")
 		(at 143.51 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6644,22 +6672,22 @@
 		(dnp no)
 		(uuid "4f6f1e2a-62a7-410c-b652-23242b65b18a")
 		(property "Reference" "L1"
-			(at 143.51 109.474 90)
+			(at 143.51 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74438356056"
-			(at 143.51 112.014 90)
+		(property "Value" "SRN4018-4R7M"
+			(at 143.51 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_User:L_Wurth_WE-MAPI-4020"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 142.24 119.888 90)
 			(effects
 				(font
@@ -6668,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438357068.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf?sfvrsn=528a0331_24"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -6677,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WE-MAPI SMT Shielded Power Inductor, 5.6µH, 3.85A, 81mΩ"
+		(property "Description" "Semi Shielded Power Inductor, 4.7µH, 2A, 84mΩ"
 			(at 143.51 118.11 0)
 			(effects
 				(font
@@ -6686,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wurth Electronics"
+		(property "Manufacturer" "Bourns"
 			(at 163.83 116.84 0)
 			(effects
 				(font
@@ -6695,8 +6723,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74438357068"
-			(at 143.51 111.76 90)
+		(property "MPN" "SRN4018-4R7M"
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,15 +6732,15 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Value 1" "5.6µH, 3.75A"
-			(at 143.51 114.3 90)
+		(property "Pretty Value 1" "4.7µH, 2A"
+			(at 143.51 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Supplier" "Digi-Key"
+		(property "Supplier" "Reichelt"
 			(at 160.02 130.81 0)
 			(effects
 				(font
@@ -6721,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "732-8235-1-ND"
+		(property "SPN" "BOU SRN4018-4R7M"
 			(at 160.02 116.84 0)
 			(effects
 				(font
